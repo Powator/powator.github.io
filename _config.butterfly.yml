@@ -31,7 +31,7 @@ menu:
     资源: /rlink/ || fas fa-save
   线路 || iconfont icon-global:
     主站点: https://blog.fyz666.xyz/ || || _blank
-    GitHub: https://gh.fyz666.xyz/
+    GitHub: https://github.com/Powator
     Cloudflare: https://cf.fyz666.xyz/
     Vercel: https://vc.fyz666.xyz/
     Netlify: https://ntl.fyz666.xyz/
@@ -732,7 +732,7 @@ theme_color:
 # The position of site info, eg: 300px/300em/300rem/10% (主頁標題距離頂部距離)
 index_site_info_top:
 # The height of top_img, eg: 300px/300em/300rem (主頁top_img高度)
-index_top_img_height:
+index_top_img_height: 400px
 
 # The user interface setting of category and tag page (category和tag頁的UI設置)
 # index - same as Homepage UI (index 值代表 UI將與首頁的UI一樣)
@@ -813,9 +813,9 @@ click_heart:
 clickShowText:
   enable: false
   text:
-    - 富强
+    - chim
     - 民主
-    - 文明
+    - pom
     - 和谐
     - 自由
     - 平等
@@ -826,7 +826,7 @@ clickShowText:
     - 诚信
     - 友善
   fontSize: 20px
-  random: false
+  random: true
   mobile: false
 
 # Default display mode (網站默認的顯示模式)
@@ -880,7 +880,7 @@ subtitle:
   source: 1
   # 如果關閉打字效果，subtitle 只會顯示 sub 的第一行文字
   sub:
-    - 行所欲行，无问西东。
+    - Hacking everything	
     - Do what you love, Love what you do.
 
 # Loading Animation (加載動畫)
