@@ -1,0 +1,8 @@
+node_modules/
+*-backup/
+public/
+/gallery/
+/images/
+/db.json
+/*.code-workspace
+ignores

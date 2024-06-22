@@ -1,0 +1,387 @@
+#about-page
+  .author-box
+    .author-img
+      img.no-lightbox(src=theme.avatar.img)
+    .image-dot
+  p.p.center.logo.large 关于我
+  p.p.center.small 行所欲行，无问西东
+  .author-content
+    .author-content-item.myInfoAndSayHello
+      .title1 你好，很高兴认识你👋
+      .title2
+        | 我是
+        span.inline-word 「风的影子」
+      .title1
+        | 是一名 在读博士研究生、
+        span.inline-word 博主
+      .title1
+        | 我的GPG Key: 
+        span.inline-word
+          a(href="https://keys.openpgp.org/vks/v1/by-fingerprint/B4ADB2D4BB3EBD5E387BA401B8674F373ACBD2AD") B4ADB2D4BB3EBD5E387BA401B8674F373ACBD2AD
+    .aboutsiteTips.author-content-item
+      .author-content-item-tips 追求
+      h2
+        | 源于
+        br
+        | 兴趣而去
+        span.inline-word 学习
+        .mask
+          span.first-tips 科学
+          |
+          span 技术
+          |
+          span(data-up) 代码
+          |
+          span(data-show) 程序
+
+  .hello-about
+    .cursor(style='translate:none;rotate:none;scale:none;transform:translate(721px,180px)')
+    .shapes
+      .shape.shape-1(style='translate:none;rotate:none;scale:none;transform:translate(721px,180px)')
+      .shape.shape-2(style='translate:none;rotate:none;scale:none;transform:translate(721px,180px)')
+      .shape.shape-3(style='translate:none;rotate:none;scale:none;transform:translate(721px,180px)')
+    .content
+      h1 Hello there!
+
+  .author-content
+    .author-content-item.skills
+      .card-content
+        .author-content-item-tips 技能
+        span.author-content-item-title 开启创造力
+        .skills-style-group
+          .tags-group-all
+            .tags-group-wrapper
+              each i in site.data.creativity
+                - const evenNum = i.creativity_list.filter((x, index) => index % 2 === 0);
+                - const oddNum = i.creativity_list.filter((x, index) => index % 2 === 1);
+                each item, index in i.creativity_list
+                  if ((index+1 <= evenNum.length) && (index+1 <= oddNum.length))
+                    .tags-group-icon-pair
+                      .tags-group-icon(style=`background: ${evenNum[index].color}`)
+                        img.no-lightbox(title=evenNum[index].name, src=evenNum[index].icon)
+                      .tags-group-icon(style=`background: ${oddNum[index].color}`)
+                        img.no-lightbox(title=oddNum[index].name, src=oddNum[index].icon)
+          .skills-list
+            each i in site.data.creativity
+              each item, index in i.creativity_list
+                a(href=item.website)
+                  .skill-info
+                    .skill-icon(style=`background: ${item.color}`)
+                      img.no-lightbox(title=item.name, src=item.icon)
+                    .skill-name
+                      span=item.name
+            .etc ...
+    .author-content-item.careers
+      .card-content
+        .author-content-item-tips 生涯
+        span.author-content-item-title 无限进步
+        .careers-group
+          .careers-item
+            .circle(style='background:#FF6666')
+            .name 初中: 慈溪实验中学
+          .careers-item
+            .circle(style='background:#CC3333')
+            .name 高中: 慈溪中学, 理科实验班  
+          .careers-item
+            .circle(style='background:#357ef5')
+            .name 本科: USTC, SCGY, 概率统计专业
+          .careers-item
+            .circle(style='background:#996699')
+            .name 硕博: USTC, SDS, 数据科学专业
+
+
+  .author-content
+    .about-statistic.author-content-item
+      .card-content
+        .author-content-item-tips 数据
+        span.author-content-item-title 访问统计
+        #statistic
+        .post-tips
+          | 统计信息来自
+          a(href='https://v6.51.la/', target='_blank', rel='noopener nofollow') 51la网站统计
+        .banner-button-group
+          a.banner-button(href="/archives/")
+            i.fas.fa-circle-right
+            |
+            span.banner-button-text 文章隧道
+    .author-content-item-group.column.mapAndInfo
+      .author-content-item.map.single
+        span.map-title
+          | 我现在住在
+          b 中国，安徽，合肥市
+      .author-content-item.selfInfo.single
+        div
+          span.selfInfo-title 出生时的 UNIX 时间戳:
+          |
+          span.selfInfo-content#selfInfo-content-year(style='color:#43a6c6') 919584000
+        div
+          span.selfInfo-title 中国科学技术大学
+          |
+          span.selfInfo-content(style='color:#c69043') 数据科学
+        div
+          span.selfInfo-title 现在职业
+          |
+          span.selfInfo-content(style='color:#b04fe6') 在读博士
+
+  .author-content
+    .author-content-item.personalities
+      .author-content-item-tips MBTI
+      span.author-content-item-title 调停者
+      .title2(style='color:#ac899c') INFP-A
+      .post-tips
+        | 前往
+        a(href='https://www.16personalities.com/', target='_blank', rel='noopener nofollow') 16personalities
+        | 了解更多关于
+        a(target='_blank', rel='noopener external nofollow', href='https://www.16personalities.com/ch/infp-%E4%BA%BA%E6%A0%BC') 调停者
+      .image
+        img.no-lightbox(src='https://blogfiles.oss.fyz666.xyz/svg/39e1659f-5eef-4709-bc5f-c5e588168293.svg')
+    .author-content-item.maxim
+      .author-content-item-tips 座右铭
+      span.maxim-title
+        span(style='opacity:.6;margin-bottom:8px') 行所欲行，
+        |
+        span 无问西东。
+      .post-tips 翻译: 
+        | 想干啥就干啥，不听劝。
+  .author-content
+    .author-content-item.buff
+      .card-content
+        .author-content-item-tips 特长
+        span.buff-title
+          span(style='opacity:.6;margin-bottom:8px')
+            | 瞎捣鼓能力
+            span.inline-word Max
+          |
+          span
+            s 临时抱佛脚
+            | 学习新事物能力
+            span.inline-word Max
+      .card-background-icon
+        i.fas.fa-dice-d20
+    .author-content-item.game(style="background-image: url(https://blogfiles.oss.fyz666.xyz/webp/335c2e46-52a4-49c3-ad6c-490c406aee77.webp);")
+      .card-content
+        .author-content-item-tips 爱好游戏
+        span.author-content-item-title 立直麻将
+        .title2 混迹于雀魂、天凤等平台，更热衷于线下
+        .content-bottom
+          .tips.game-uid UID: 49666973
+
+  .author-content
+    .author-content-item.like-technology(style="background-image: url(https://blogfiles.oss.fyz666.xyz/webp/311e87a2-738e-4769-a150-df1ee78b4d20.webp);")
+      .card-content
+        .author-content-item-tips 关注偏好
+        span.author-content-item-title 计算机技术
+        .content-bottom
+          .tips 人工智能、一切有意思的事物
+    .author-content-item.like-music(style="background-image: url(https://blogfiles.oss.fyz666.xyz/webp/e19206fc-a2ce-447a-adcd-ff1ccc88a4ed.webp)")
+      .card-content
+        .author-content-item-tips 音乐偏好
+        span.author-content-item-title 周杰伦、古风
+        |
+        span.author-content-item-title 华语、日语流行
+        .content-bottom
+          .tips 与我一起欣赏更多音乐
+        .banner-button-group
+          a.banner-button(href="/music/")
+            i.fas.fa-circle-right
+            |
+            span.banner-button-text 我的歌单
+  .author-content
+    .create-site-post.author-content-item.introduce.single
+      .author-content-item-tips 心路历程
+      p 欢迎来到我的博客～，这个博客目前只有我的一些杂七杂八的文章，以后或许还会慢慢增加其他内容。你可以在这里窥探到我每天都在不务正业地干些啥。我目前于
+        strong 中国科学技术大学（USTC）大数据学院
+        | 攻读
+        strong 数据科学专业
+        | 的博士学位，因
+        psw 不屑于水论文
+        | 水平太差而没有什么拿得出手的科研成果，且由于始终感觉在做的事情意义不大而逐渐丧失科研兴趣。不过，我会始终保持对计算机相关领域的热情，毕竟——科研只是计算机领域的冰山一角，甚至我还认为，搞科研能让我学到的技术少之又少，
+        psw 在我所涉足的科研领域，大部分人只是毫无意义的缝合怪+擅长讲故事的Paper Machine罢了。
+      h2 网名的由来
+      p 我的网名叫「风的影子」，英文版「WindShadow」，这是我小学刚注册QQ时的QQ昵称，在当时也算比较非主流（不过已经忘了当时是如何想出这个名字的），后面才发现这个网名的首字母缩写包含了我的名字的首字母，于是就一直沿用了下来。
+      h2 我与计算机的结缘之
+        psw 弯
+        | 路
+      p 说起这个，就不得不提到我人生中多次与计算机领域擦肩而过，最后又殊途同归的经历。
+        ol
+          li 第一次的擦肩而过是在小学三年级，彼时老师在班上提到学校有一个编程（OI竞赛）培训，说想去的可以中午去某某教室报名。
+            | 虽然当时不懂啥是编程，但我仍打算去报个名看看，然而到了中午，我却忘了是去哪个教室报名，由于我当时是一个非常I的人，基本没有朋友，也不愿意询问老师，于是就咕咕咕了。
+            | 后来，当时班上唯一一个参加编程竞赛培训的同学成为了一名OI大佬，在高中阶段获得了APIO中国赛区的金牌🏅，其他奖牌也是拿到手软，羡慕成功！
+          li 第二次的擦肩而过是在初一，我由于兴趣以及为了弥补小学时的遗憾自学了Pascal（当时我们用的还是这种非常古老的语言），也参加了校内的编程竞赛培训，但当时我还同时参加了一大堆其他竞赛，
+            | 一段时间后，编程竞赛与英语竞赛发生了时间冲突，然后在爸妈的“建议”下放弃了编程竞赛，继续参加英语竞赛
+            psw （鉴定为大煞笔！）
+            | 当时带我的编程竞赛班老师还对此表示遗憾，我想要是我当时能多坚持一下，即使不会成为OI大佬，也会对我未来的发展大有好处吧。
+          li 再后来，我走了一条寻常又不完全寻常的路：按部就班读完初中，考上当地最好的高中，高二时报名科大少创班考试，捡漏被科大录取了。大学阶段，我们学校的
+            psw 人上人学院
+            | 少院可以自由选专业，然而在那时，我早已忘却了当年对编程、计算机领域存在过的一丝兴趣，我选择进入数学科学学院进行本科阶段的学习。
+          li 大三时成功保研，面临研究生专业的选择，当时的我已经对数学丧失了兴趣，但我还没有想清楚自己到底想干什么，于是，在别人的建议
+            psw （数学转金融=赚大钱）
+            | 下，我向复旦、上交等高校的金融专业递交了申请书。
+          li 感谢复旦、上交拒我申请之恩，这使得我在后来对于「到底想学什么」这个问题进行了认真的思考。在那个阶段，我重新接触了近十年未曾接触（其实也没那么久，毕竟大一必修C语言，虽然学的不甚认真）的计算机领域。
+          li 我决定转到计算机的子领域——人工智能学习，报名了本校的大数据学院的考试，成功被数据科学（计算机科学与技术）专业录取，顺利在硕士阶段改变了专业方向。
+        | 从此以后，我从一个啥也不懂的计算机小白一步步学习各种计算机领域的相关知识，重新踏上了我本该在十多年前就已经出发了的路途。但我相信——
+        center
+          strong 虽然我曾走了很多的弯路，但从当下开始也为时不晚。
+      
+      h2 为什么写这个博客？
+      p 其实最开始的原因很简单，因为我前期没有任何基础，每次遇到问题都得Google半天才能得到解决，而我的记性又不好，为了避免下一次遇到同样的问题又得现查，就把一些自己的经验写下来，便于自己在日后回看。
+        br
+        | 另外，比起在本地做笔记，博客上的内容能分享给互联网上的任何一个人，他们当中的某些人或许也和我一样，在很多方面都是零基础，我十分愿意将所有自己的经验或多或少地分享给别人。
+        br
+        | 不过，虽然我很乐于分享，但不巧我是个铁I人（INFP）。于是，博客作为一个完全属于自己的天地，可以给我带来很多线下交流无法带给我的快乐。
+      h2 域名的含义
+      p 因为贫穷，我目前只维护了一个域名：
+        strong fyz666.xyz
+        | 。显然，
+        strong fyz
+        | 是我的姓名首字母缩写，加个
+        strong 666
+        | 则是因为
+        psw fyz.xyz 这个域名被抢注了...
+        | 我希望自己可以在各方面越来越6。至于顶级域名选择了比较冷门的 
+        strong .xyz
+        | 则与我的本科专业——数学有着密切关联。在数学中，x, y, z通常用来表示未知量，象征着一切未知的事物，故使用 .xyz 作为域名，以勉励自己不忘初心，保持对未知事物的好奇，发扬数专生“扎实”的数理基础，走好接下来的每一步。
+      h2 TODO List
+      .checkbox.blue.checked
+        input(type='checkbox', checked)
+        p 找个优秀、体贴的对象
+        .hide-block
+          button.hide-button(onclick="this.classList.add('open');") Click
+          .hide-content
+            pre const girlfriend = new Girl({ name: 'HYZ', birthday: 905011200 });
+      .checkbox.blue.checked
+        input(type='checkbox', checked)
+        p 拿到学士学位（这不是有手就行）
+      .checkbox.blue
+        input(type='checkbox')
+        p 混个博士毕业
+      .checkbox.blue
+        input(type='checkbox')
+        p 找份自己热爱、又能养家糊口的工作
+      .checkbox.blue
+        input(type='checkbox')
+        p 努力成为一个全栈工程师（其实只是想什么都会一点点）
+  .author-content
+    .author-content-item.single
+      .author-content-item-tips 文章统计
+      #blog-charts
+        div(style="overflow-x:scroll;")
+          #posts-chart(style="border-radius: 8px;height: 300px;padding: 10px;min-width:768px;")
+        div(style="overflow-x:scroll;")
+          #tags-chart(style="border-radius: 8px; height: 300px; padding: 10px;min-width:768px;")
+        div(style="overflow-x:scroll;")
+          #categories-chart(style="border-radius: 8px; height: 300px; padding: 10px;min-width:768px;")
+  script.
+    $(document).ready(function(){createCharts();})
+
+script.
+  (() => {
+    function isInViewPortOfOne(el) {
+      if (!el) return;
+      const viewPortHeight = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+      const offsetTop = el.offsetTop;
+      const scrollTop = document.documentElement.scrollTop;
+      const top = offsetTop - scrollTop;
+      return top <= viewPortHeight;
+    }
+    fetch('https://v6-widget.51.la/v6/JNnEmA8RDMZCf0Vf/quote.js').then(res => res.text()).then((data) => {
+        let title = ['最近活跃', '今日人数', '今日访问', '昨日人数', '昨日访问', '本月访问', '总访问量']
+        let num = data.match(/(<\/span><span>).*?(\/span><\/p>)/g)
+
+        num = num.map((el) => {
+          let val = el.replace(/(<\/span><span>)/g, '')
+          let str = val.replace(/(<\/span><\/p>)/g, '')
+          return str
+        })
+
+        let statisticEl = document.getElementById('statistic')
+
+        let statistic = []
+        for (let i = 0; i < num.length; i++) {
+            if (!statisticEl) return
+            if (i == 0 || i == num.length - 1) continue;
+            statisticEl.innerHTML += '<div><span>' + title[i] + '</span><span id='+ title[i] + '>' + num[i] + '</span></div>'
+            queueMicrotask(()=> {
+              statistic.push(new CountUp(title[i], 0, num[i], 0, 2, {
+                  useEasing: true,
+                  useGrouping: true,
+                  separator: ',',
+                  decimal: '.',
+                  prefix: '',
+                  suffix: ''
+              }))
+            })
+        }
+
+        function statisticUP () {
+          let statisticElment = document.querySelector('.about-statistic.author-content-item');
+          if(isInViewPortOfOne(statisticElment)) {
+            for (let i = 0; i < num.length; i++) {
+              if (i == 0 || i == num.length - 1) continue;
+              statistic[i-1].start();
+            }
+            document.removeEventListener('scroll', throttleStatisticUP);
+          }
+        }
+
+        const selfInfoContentYear = new CountUp('selfInfo-content-year', 0, 919526400, 0, 2, {
+          useEasing: true,
+          useGrouping: false,
+          separator: ',',
+          decimal: '.',
+          prefix: '',
+          suffix: ''
+        })
+
+        function scrollSelfInfoContentYear() {
+          let selfInfoContentYearElment = document.querySelector('.author-content-item.selfInfo.single');
+          if (selfInfoContentYearElment && isInViewPortOfOne(selfInfoContentYearElment)) {
+            selfInfoContentYear.start()
+            document.removeEventListener('scroll', throttleScrollSelfInfoContentYear);
+          }
+        }
+        const throttleStatisticUP = btf.throttle(statisticUP, 200)
+        document.addEventListener('scroll', throttleStatisticUP, {passive: true})
+
+        const throttleScrollSelfInfoContentYear = btf.throttle(scrollSelfInfoContentYear, 200)
+        document.addEventListener('scroll', throttleScrollSelfInfoContentYear, {passive: true})
+    });
+
+    var pursuitInterval = null;
+      pursuitInterval = setInterval(function () {
+        const show = document.querySelector('span[data-show]')
+        const next = show.nextElementSibling || document.querySelector('.first-tips')
+        const up = document.querySelector('span[data-up]')
+
+        if (up) {
+          up.removeAttribute('data-up')
+        }
+
+        show.removeAttribute('data-show')
+        show.setAttribute('data-up', '')
+
+        next.setAttribute('data-show', '')
+      }, 2000)
+
+      document.addEventListener('pjax:send', function(){
+        clearInterval(pursuitInterval);
+      });
+
+      var helloAboutEl = document.querySelector('.hello-about')
+      helloAboutEl.addEventListener("mousemove", evt => {
+        const mouseX = evt.offsetX;
+        const mouseY = evt.offsetY;
+        gsap.set(".cursor", {
+          x: mouseX,
+          y: mouseY,
+        })
+
+        gsap.to(".shape", {
+          x: mouseX,
+          y: mouseY,
+          stagger: -0.1
+        })
+      })
+  })()
+script(src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js")
+script(src=url_for(theme.CDN.option.countup_js))

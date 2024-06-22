@@ -1,0 +1,37 @@
+- const { appId, apiKey, indexName, option } = theme.docsearch
+
+.docsearch-wrap
+  #docsearch(style="display:none")
+  link(rel="stylesheet" href=url_for(theme.asset.docsearch_css))
+  script(src=url_for(theme.asset.docsearch_js))
+  script.
+    (() => {
+      docsearch(Object.assign({
+        appId: '!{appId}',
+        apiKey: '!{apiKey}',
+        indexName: '!{indexName}',
+        container: '#docsearch',
+        transformItems: (items) => {
+          return items.map(item => {
+            const url = new URL(item.url);
+            return {
+              ...item,
+              url: url.pathname + url.search + url.hash,
+            };
+          });
+        }
+      }, !{JSON.stringify(option)}))
+
+      const handleClick = () => {
+        document.querySelector('.DocSearch-Button').click()
+      }
+
+      const searchClickFn = () => {
+        btf.addEventListenerPjax(document.querySelector('#search-button > .search'), 'click', handleClick)
+      }
+
+      searchClickFn()
+      window.addEventListener('pjax:complete', searchClickFn)
+    })()
+
+
