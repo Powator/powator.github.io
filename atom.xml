@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Cyberpowa</title>
   <icon>https://cyberpowa.com/images/avatar.jpg</icon>
-  <subtitle>Shelter for Wind</subtitle>
+  
   <link href="https://cyberpowa.com/atom.xml" rel="self"/>
   
   <link href="https://cyberpowa.com/"/>
