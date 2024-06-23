@@ -975,7 +975,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
-  enable: true
+  enable: false
   per_page: true
 
 # Snackbar (Toast Notification 彈窗)
@@ -1093,7 +1093,7 @@ inject:
           });
         }
         if (screen.width >= 768) {
-          const live2d_path = "/plugins/live2d/";
+          const live2d_path = "/plugins/live2d/borrar esto, manteniendo la última barrita para volver a poner a la muñequita que dice cosas"; 
           Promise.all([
             loadExternalResource(live2d_path + "waifu.css", "css"),
             loadExternalResource(live2d_path + "live2d.min.js", "js"),
