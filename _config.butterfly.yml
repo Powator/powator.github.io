@@ -52,10 +52,10 @@ code_word_wrap: false
 # formal:
 #   icon: link || the description || color
 social:
-  fas fa-envelope: mailto:me@mail.fyz666.xyz || Email
+  fas fa-envelope: mailto:sanchezcnpo@gmail.com || Email
   fab fa-qq: tencent://message/?uin=1010954322&Site=fdfdf&Menu=yes || QQ
-  fab fa-telegram: https://t.me/windshadow233 || Telegram
-  fab fa-instagram: https://www.instagram.com/ericcc_fan/ || Instagram
+  fab fa-telegram: https://t.me/sdfghj || Telegram
+  fab fa-instagram: https://www.instagram.com/sanchezpowa || Instagram
   fab fa-facebook-square: https://www.facebook.com/yizhan.fan.35 || Facebook
 
 # Image (圖片設置)
@@ -74,12 +74,10 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: /images/top_img.png
-
-#https://blogfiles.oss.fyz666.xyz/webp/1fa952df-86cb-43a6-8511-1287eefeeafe.webp
+index_img: /images/butterfly_config_images/top_img.png
 
 # If the banner of page not setting, it will show the top_img
-default_top_img: https://blogfiles.oss.fyz666.xyz/webp/1fa952df-86cb-43a6-8511-1287eefeeafe.webp
+default_top_img: /images/butterfly_config_images/top_img.png
 
 # The banner image of archive page
 archive_img: 
@@ -112,53 +110,53 @@ cover:
   position: left
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
-    - https://blogfiles.oss.fyz666.xyz/jpg/60489f99-6323-4c07-8eb8-6cabeaacf2b7.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/65bd4aa6-b921-4d15-825f-1316821035df.webp
-    - https://blogfiles.oss.fyz666.xyz/jpeg/3eb198bc-75f1-4067-a3f3-5c2e50ed03eb.jpeg
-    - https://blogfiles.oss.fyz666.xyz/jpg/bfb50d30-edc6-496e-8df6-2ecdbc719621.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/864a0d33-6e9e-48c9-b256-9f7193a52753.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/deb9fa48-e8a3-4898-bc34-8932465eb29f.webp
-    - https://blogfiles.oss.fyz666.xyz/jpg/2fb0fe74-ec1e-4037-8e93-d40a6261d2f8.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/8a26f71e-99f9-475f-837e-24f43d1b38ce.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/68811bbd-a409-4dcd-a3ff-62cd9c09b049.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/02f95e37-d657-4bc5-a48f-df7a935a4743.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/31b7aef8-adee-4f3f-a669-01adf573e496.webp
-    - https://blogfiles.oss.fyz666.xyz/jpg/e2ecd861-3752-4a8d-be07-8e132002d557.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/f5ad7c8a-8dce-43d6-a9a9-8572fdec3f04.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/e9c78782-dcba-4b92-89ec-cd18c7fff13c.webp
-    - https://blogfiles.oss.fyz666.xyz/webp/5e76e094-e74d-4150-ac79-4e682ffd92ca.webp
-    - https://blogfiles.oss.fyz666.xyz/jpeg/7a89f177-77a8-4cb1-b08b-08e54c4550a6.jpeg
-    - https://blogfiles.oss.fyz666.xyz/jpg/927278e3-74b2-4fdd-996d-16b367b1220a.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/86b5f306-a440-490e-b3e8-497587d2f9b9.webp
-    - https://blogfiles.oss.fyz666.xyz/jpg/2e4e1933-5646-4cd2-a520-ae1ae7b4d9bd.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/3417d190-a98d-4e09-9235-2d32f98aaaed.webp
-    - https://blogfiles.oss.fyz666.xyz/jpg/51384f3b-bdb8-4408-8e71-70008281909d.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/116f2850-1ca8-4db1-a2ea-86cd5fc37bf5.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/34e83a84-d49a-4a9d-a5f3-bebacff28740.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/6c8423f4-db52-4c11-9980-78d8c383b991.webp
-    - https://blogfiles.oss.fyz666.xyz/jpg/0e0aa932-c7a8-41d7-857f-53765c519ec6.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/3cc14548-1f1b-45a7-8982-65199bd9fa15.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/998fed9b-e31d-43c4-87aa-5efa0d19bc14.webp
-    - https://blogfiles.oss.fyz666.xyz/webp/6d8e4926-98dc-440f-b073-db82859cd24a.webp
-    - https://blogfiles.oss.fyz666.xyz/jpg/619c9b21-52bf-452e-bdee-44807e3ee4cb.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/c1a73a16-0911-4284-b9c8-224970cb34af.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/38aca871-a625-4e93-bd05-bee6a1723d6c.webp
-    - https://blogfiles.oss.fyz666.xyz/png/685a995f-3a1a-4fb1-90bf-4b99a8b7020b.png
-    - https://blogfiles.oss.fyz666.xyz/webp/69e0914a-0844-4e0d-90f9-7f0a3d42f3f0.webp
-    - https://blogfiles.oss.fyz666.xyz/jpg/639f7bbd-083a-407f-94fc-0fead4ccc4d4.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/12af9cbb-5e86-4b75-9548-3f0d39f9a271.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/000f4409-56f6-4b4c-aa93-0f3a9d66cdd1.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/70061b93-acea-4a1a-9111-df81571199ed.webp
-    - https://blogfiles.oss.fyz666.xyz/webp/960e141b-3fd0-433a-a73b-f8f4d2f5cc1e.webp
-    - https://blogfiles.oss.fyz666.xyz/webp/a8cc09e7-6634-4439-a272-20febb254b7b.webp
-    - https://blogfiles.oss.fyz666.xyz/jpg/91295bff-36a5-4180-a66f-759dc1e9b953.jpg
-    - https://blogfiles.oss.fyz666.xyz/jpg/8cf15d52-96ae-462f-b1ed-81d442ce8c23.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/71513db1-2826-44db-a9e2-654b890c5205.webp
-    - https://blogfiles.oss.fyz666.xyz/webp/f29bb2ba-e786-4263-b898-19737ad36d84.webp
-    - https://blogfiles.oss.fyz666.xyz/webp/4ec885f2-ea74-426b-9839-95592d60af65.webp
-    - https://blogfiles.oss.fyz666.xyz/webp/6d8e4926-98dc-440f-b073-db82859cd24a.webp
-    - https://blogfiles.oss.fyz666.xyz/jpg/46ef9407-bd88-4f59-b4b9-6847142ccf54.jpg
-    - https://blogfiles.oss.fyz666.xyz/webp/50b0a12f-7003-430d-a8d1-e06249d4be19.webp
+    - /images/butterfly_config_images/1.jpg
+    - /images/butterfly_config_images/2.jpg
+    - /images/butterfly_config_images/3.jpg
+    - /images/butterfly_config_images/4.jpg
+    - /images/butterfly_config_images/5.jpg
+    - /images/butterfly_config_images/6.jpg
+    - /images/butterfly_config_images/7.jpg
+    - /images/butterfly_config_images/8.jpg
+    - /images/butterfly_config_images/9.jpg
+    - /images/butterfly_config_images/10.jpg
+    - /images/butterfly_config_images/11.jpg
+    - /images/butterfly_config_images/12.jpg
+    - /images/butterfly_config_images/13.jpg
+    - /images/butterfly_config_images/14.jpg
+    - /images/butterfly_config_images/15.jpg
+    - /images/butterfly_config_images/16.jpg
+    - /images/butterfly_config_images/17.jpg
+    - /images/butterfly_config_images/18.jpg
+    - /images/butterfly_config_images/19.jpg
+    - /images/butterfly_config_images/20.jpg
+    - /images/butterfly_config_images/21.jpg
+    - /images/butterfly_config_images/22.jpg
+    - /images/butterfly_config_images/23.jpg
+    - /images/butterfly_config_images/24.jpg
+    - /images/butterfly_config_images/25.jpg
+    - /images/butterfly_config_images/26.jpg
+    - /images/butterfly_config_images/27.jpg
+    - /images/butterfly_config_images/28.jpg
+    - /images/butterfly_config_images/29.jpg
+    - /images/butterfly_config_images/30.jpg
+    - /images/butterfly_config_images/31.jpg
+    - /images/butterfly_config_images/32.jpg
+    - /images/butterfly_config_images/33.jpg
+    - /images/butterfly_config_images/34.jpg
+    - /images/butterfly_config_images/35.jpg
+    - /images/butterfly_config_images/36.jpg
+    - /images/butterfly_config_images/37.jpg
+    - /images/butterfly_config_images/38.jpg
+    - /images/butterfly_config_images/39.jpg
+    - /images/butterfly_config_images/40.jpg
+    - /images/butterfly_config_images/41.jpg
+    - /images/butterfly_config_images/42.jpg
+    - /images/butterfly_config_images/43.jpg
+    - /images/butterfly_config_images/44.jpg
+    - /images/butterfly_config_images/45.jpg
+    - /images/butterfly_config_images/46.jpg
+    - /images/butterfly_config_images/47.jpg
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
