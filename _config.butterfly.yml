@@ -74,17 +74,19 @@ avatar:
 disable_top_img: false
 
 # The banner image of home page
-index_img: https://blogfiles.oss.fyz666.xyz/webp/1fa952df-86cb-43a6-8511-1287eefeeafe.webp
+index_img: /images/top_img.png
+
+#https://blogfiles.oss.fyz666.xyz/webp/1fa952df-86cb-43a6-8511-1287eefeeafe.webp
 
 # If the banner of page not setting, it will show the top_img
 default_top_img: https://blogfiles.oss.fyz666.xyz/webp/1fa952df-86cb-43a6-8511-1287eefeeafe.webp
 
 # The banner image of archive page
-archive_img:
+archive_img: 
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: 
 
 # The banner image of tag page
 # format:
@@ -276,7 +278,7 @@ noticeOutdate:
 footer:
   owner:
     enable: true
-    since: 2020
+    since: 2021
   custom_text: 
     <div>
       <a href="https://github.com/windshadow233.github.io"><img src="https://img.shields.io/badge/Source-GitHub-8A2BE2" /></a>
@@ -297,7 +299,7 @@ footer:
         <span class="footer-separator"></span>
       <a href="https://letsencrypt.org/"><img src="https://img.shields.io/badge/SSL-Let's_Encrypt-ff69b4" /></a>
     </div>
-  copyright: true # Copyright of theme and framework
+  copyright: false # Copyright of theme and framework
 
 # aside (側邊欄)
 # --------------------------------------
