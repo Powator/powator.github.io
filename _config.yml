@@ -135,7 +135,7 @@ feed:
   template:
 
 history_calendar:
-  enable: true
+  enable: false
   priority: 4
   enable_page: all
   layout:
