@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Cyberpowa</title>
-  <icon>https://powator.github.io/images/avatar.jpg</icon>
+  <icon>https://cyberpowa.com/images/avatar.jpg</icon>
   
-  <link href="https://powator.github.io/atom.xml" rel="self"/>
+  <link href="https://cyberpowa.com/atom.xml" rel="self"/>
   
-  <link href="https://powator.github.io/"/>
-  <updated>2024-06-22T19:28:58.000Z</updated>
-  <id>https://powator.github.io/</id>
+  <link href="https://cyberpowa.com/"/>
+  <updated>2024-06-23T13:21:54.535Z</updated>
+  <id>https://cyberpowa.com/</id>
   
   <author>
     <name>Powa</name>
@@ -17,9 +17,32 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://cyberpowa.com/blog/clxrp16fj0001atn8avakefmd/"/>
+    <id>https://cyberpowa.com/blog/clxrp16fj0001atn8avakefmd/</id>
+    <published>2024-06-23T13:21:54.525Z</published>
+    <updated>2024-06-23T13:21:54.535Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>vavavava que funcaaaa</title>
-    <link href="https://powator.github.io/blog/clxqr2t9k00e5von8evzu1g7q/"/>
-    <id>https://powator.github.io/blog/clxqr2t9k00e5von8evzu1g7q/</id>
+    <link href="https://cyberpowa.com/blog/clxrp16mm00ddatn8c4pg3ll2/"/>
+    <id>https://cyberpowa.com/blog/clxrp16mm00ddatn8c4pg3ll2/</id>
     <published>2024-06-22T21:30:05.113Z</published>
     <updated>2024-06-22T19:28:58.000Z</updated>
     
@@ -41,32 +64,9 @@
   </entry>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://powator.github.io/blog/clxqr2t2m0001von80zgnbm60/"/>
-    <id>https://powator.github.io/blog/clxqr2t2m0001von80zgnbm60/</id>
-    <published>2024-06-22T21:30:05.057Z</published>
-    <updated>2024-06-22T19:11:35.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>holaaaa</title>
-    <link href="https://powator.github.io/blog/clxqr2t2s0003von87awfcz1l/"/>
-    <id>https://powator.github.io/blog/clxqr2t2s0003von87awfcz1l/</id>
+    <link href="https://cyberpowa.com/blog/clxrp16fo0003atn85xwse9td/"/>
+    <id>https://cyberpowa.com/blog/clxrp16fo0003atn85xwse9td/</id>
     <published>2024-06-22T21:30:04.999Z</published>
     <updated>2024-06-22T19:27:13.000Z</updated>
     
@@ -90,8 +90,8 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
   
   <entry>
     <title>为Butterfly主题新增网站快捷键功能</title>
-    <link href="https://powator.github.io/blog/11765/"/>
-    <id>https://powator.github.io/blog/11765/</id>
+    <link href="https://cyberpowa.com/blog/11765/"/>
+    <id>https://cyberpowa.com/blog/11765/</id>
     <published>2024-05-31T15:05:37.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -108,25 +108,25 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Hexo魔改" scheme="https://powator.github.io/categories/hexo%E9%AD%94%E6%94%B9/"/>
+    <category term="Hexo魔改" scheme="https://cyberpowa.com/categories/hexo%E9%AD%94%E6%94%B9/"/>
     
     
-    <category term="JavaScript" scheme="https://powator.github.io/tags/javascript/"/>
+    <category term="JavaScript" scheme="https://cyberpowa.com/tags/javascript/"/>
     
-    <category term="NodeJS" scheme="https://powator.github.io/tags/nodejs/"/>
+    <category term="NodeJS" scheme="https://cyberpowa.com/tags/nodejs/"/>
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
-    <category term="Butterfly主题" scheme="https://powator.github.io/tags/butterfly%E4%B8%BB%E9%A2%98/"/>
+    <category term="Butterfly主题" scheme="https://cyberpowa.com/tags/butterfly%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>魔改Butterfly主题的随机文章封面算法</title>
-    <link href="https://powator.github.io/blog/11701/"/>
-    <id>https://powator.github.io/blog/11701/</id>
+    <link href="https://cyberpowa.com/blog/11701/"/>
+    <id>https://cyberpowa.com/blog/11701/</id>
     <published>2024-05-22T20:21:17.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -144,25 +144,25 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Hexo魔改" scheme="https://powator.github.io/categories/hexo%E9%AD%94%E6%94%B9/"/>
+    <category term="Hexo魔改" scheme="https://cyberpowa.com/categories/hexo%E9%AD%94%E6%94%B9/"/>
     
     
-    <category term="JavaScript" scheme="https://powator.github.io/tags/javascript/"/>
+    <category term="JavaScript" scheme="https://cyberpowa.com/tags/javascript/"/>
     
-    <category term="NodeJS" scheme="https://powator.github.io/tags/nodejs/"/>
+    <category term="NodeJS" scheme="https://cyberpowa.com/tags/nodejs/"/>
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
-    <category term="Butterfly主题" scheme="https://powator.github.io/tags/butterfly%E4%B8%BB%E9%A2%98/"/>
+    <category term="Butterfly主题" scheme="https://cyberpowa.com/tags/butterfly%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>Hexo博客文章添加AI摘要</title>
-    <link href="https://powator.github.io/blog/11603/"/>
-    <id>https://powator.github.io/blog/11603/</id>
+    <link href="https://cyberpowa.com/blog/11603/"/>
+    <id>https://cyberpowa.com/blog/11603/</id>
     <published>2024-05-18T02:01:46.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -173,23 +173,23 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Hexo魔改" scheme="https://powator.github.io/categories/hexo%E9%AD%94%E6%94%B9/"/>
+    <category term="Hexo魔改" scheme="https://cyberpowa.com/categories/hexo%E9%AD%94%E6%94%B9/"/>
     
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
-    <category term="Butterfly主题" scheme="https://powator.github.io/tags/butterfly%E4%B8%BB%E9%A2%98/"/>
+    <category term="Butterfly主题" scheme="https://cyberpowa.com/tags/butterfly%E4%B8%BB%E9%A2%98/"/>
     
-    <category term="Kimi Chat" scheme="https://powator.github.io/tags/kimi-chat/"/>
+    <category term="Kimi Chat" scheme="https://cyberpowa.com/tags/kimi-chat/"/>
     
   </entry>
   
   <entry>
     <title>使用MinIO自部署对象存储服务</title>
-    <link href="https://powator.github.io/blog/11574/"/>
-    <id>https://powator.github.io/blog/11574/</id>
+    <link href="https://cyberpowa.com/blog/11574/"/>
+    <id>https://cyberpowa.com/blog/11574/</id>
     <published>2024-05-17T14:47:38.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -200,21 +200,21 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="瞎捣鼓经历" scheme="https://powator.github.io/categories/%E7%9E%8E%E6%8D%A3%E9%BC%93%E7%BB%8F%E5%8E%86/"/>
+    <category term="瞎捣鼓经历" scheme="https://cyberpowa.com/categories/%E7%9E%8E%E6%8D%A3%E9%BC%93%E7%BB%8F%E5%8E%86/"/>
     
     
-    <category term="Docker" scheme="https://powator.github.io/tags/docker/"/>
+    <category term="Docker" scheme="https://cyberpowa.com/tags/docker/"/>
     
-    <category term="对象存储" scheme="https://powator.github.io/tags/%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/"/>
+    <category term="对象存储" scheme="https://cyberpowa.com/tags/%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/"/>
     
-    <category term="MinIO" scheme="https://powator.github.io/tags/minio/"/>
+    <category term="MinIO" scheme="https://cyberpowa.com/tags/minio/"/>
     
   </entry>
   
   <entry>
     <title>魔改Butterfly主题的链接数据存放模式</title>
-    <link href="https://powator.github.io/blog/11475/"/>
-    <id>https://powator.github.io/blog/11475/</id>
+    <link href="https://cyberpowa.com/blog/11475/"/>
+    <id>https://cyberpowa.com/blog/11475/</id>
     <published>2024-05-14T22:28:25.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -232,21 +232,21 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Hexo魔改" scheme="https://powator.github.io/categories/hexo%E9%AD%94%E6%94%B9/"/>
+    <category term="Hexo魔改" scheme="https://cyberpowa.com/categories/hexo%E9%AD%94%E6%94%B9/"/>
     
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
-    <category term="Butterfly主题" scheme="https://powator.github.io/tags/butterfly%E4%B8%BB%E9%A2%98/"/>
+    <category term="Butterfly主题" scheme="https://cyberpowa.com/tags/butterfly%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>Butterfly主题tabs外挂标签下代码块高度限制失效的解决方案</title>
-    <link href="https://powator.github.io/blog/11402/"/>
-    <id>https://powator.github.io/blog/11402/</id>
+    <link href="https://cyberpowa.com/blog/11402/"/>
+    <id>https://cyberpowa.com/blog/11402/</id>
     <published>2024-05-10T12:22:11.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -265,27 +265,27 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="Debug" scheme="https://powator.github.io/categories/debug/"/>
+    <category term="Debug" scheme="https://cyberpowa.com/categories/debug/"/>
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Hexo魔改" scheme="https://powator.github.io/categories/hexo%E9%AD%94%E6%94%B9/"/>
+    <category term="Hexo魔改" scheme="https://cyberpowa.com/categories/hexo%E9%AD%94%E6%94%B9/"/>
     
     
-    <category term="JavaScript" scheme="https://powator.github.io/tags/javascript/"/>
+    <category term="JavaScript" scheme="https://cyberpowa.com/tags/javascript/"/>
     
-    <category term="Web前端" scheme="https://powator.github.io/tags/web%E5%89%8D%E7%AB%AF/"/>
+    <category term="Web前端" scheme="https://cyberpowa.com/tags/web%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
-    <category term="Butterfly主题" scheme="https://powator.github.io/tags/butterfly%E4%B8%BB%E9%A2%98/"/>
+    <category term="Butterfly主题" scheme="https://cyberpowa.com/tags/butterfly%E4%B8%BB%E9%A2%98/"/>
     
   </entry>
   
   <entry>
     <title>在Hexo博客中添加GitHub Calendar</title>
-    <link href="https://powator.github.io/blog/11354/"/>
-    <id>https://powator.github.io/blog/11354/</id>
+    <link href="https://cyberpowa.com/blog/11354/"/>
+    <id>https://cyberpowa.com/blog/11354/</id>
     <published>2024-05-10T00:48:17.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -303,25 +303,25 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Hexo魔改" scheme="https://powator.github.io/categories/hexo%E9%AD%94%E6%94%B9/"/>
+    <category term="Hexo魔改" scheme="https://cyberpowa.com/categories/hexo%E9%AD%94%E6%94%B9/"/>
     
     
-    <category term="JavaScript" scheme="https://powator.github.io/tags/javascript/"/>
+    <category term="JavaScript" scheme="https://cyberpowa.com/tags/javascript/"/>
     
-    <category term="Web前端" scheme="https://powator.github.io/tags/web%E5%89%8D%E7%AB%AF/"/>
+    <category term="Web前端" scheme="https://cyberpowa.com/tags/web%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
-    <category term="Hexo插件" scheme="https://powator.github.io/tags/hexo%E6%8F%92%E4%BB%B6/"/>
+    <category term="Hexo插件" scheme="https://cyberpowa.com/tags/hexo%E6%8F%92%E4%BB%B6/"/>
     
   </entry>
   
   <entry>
     <title>使用GitHub Actions自动部署Hexo博客</title>
-    <link href="https://powator.github.io/blog/11277/"/>
-    <id>https://powator.github.io/blog/11277/</id>
+    <link href="https://cyberpowa.com/blog/11277/"/>
+    <id>https://cyberpowa.com/blog/11277/</id>
     <published>2024-05-05T15:51:57.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -338,21 +338,21 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
-    <category term="GitHub" scheme="https://powator.github.io/tags/github/"/>
+    <category term="GitHub" scheme="https://cyberpowa.com/tags/github/"/>
     
-    <category term="GitHub Actions" scheme="https://powator.github.io/tags/github-actions/"/>
+    <category term="GitHub Actions" scheme="https://cyberpowa.com/tags/github-actions/"/>
     
   </entry>
   
   <entry>
     <title>高自由度地管理Hexo博客的文章本地路径</title>
-    <link href="https://powator.github.io/blog/11229/"/>
-    <id>https://powator.github.io/blog/11229/</id>
+    <link href="https://cyberpowa.com/blog/11229/"/>
+    <id>https://cyberpowa.com/blog/11229/</id>
     <published>2024-04-27T00:01:57.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -370,21 +370,21 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Hexo魔改" scheme="https://powator.github.io/categories/hexo%E9%AD%94%E6%94%B9/"/>
+    <category term="Hexo魔改" scheme="https://cyberpowa.com/categories/hexo%E9%AD%94%E6%94%B9/"/>
     
     
-    <category term="NodeJS" scheme="https://powator.github.io/tags/nodejs/"/>
+    <category term="NodeJS" scheme="https://cyberpowa.com/tags/nodejs/"/>
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>为Hexo文章自动生成唯一的自增ID</title>
-    <link href="https://powator.github.io/blog/11219/"/>
-    <id>https://powator.github.io/blog/11219/</id>
+    <link href="https://cyberpowa.com/blog/11219/"/>
+    <id>https://cyberpowa.com/blog/11219/</id>
     <published>2024-04-25T16:37:04.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -401,21 +401,21 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
-    <category term="Hexo魔改" scheme="https://powator.github.io/categories/hexo%E9%AD%94%E6%94%B9/"/>
+    <category term="Hexo魔改" scheme="https://cyberpowa.com/categories/hexo%E9%AD%94%E6%94%B9/"/>
     
     
-    <category term="NodeJS" scheme="https://powator.github.io/tags/nodejs/"/>
+    <category term="NodeJS" scheme="https://cyberpowa.com/tags/nodejs/"/>
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>gulp-clean-css插件优化时的bug及解决方案</title>
-    <link href="https://powator.github.io/blog/11197/"/>
-    <id>https://powator.github.io/blog/11197/</id>
+    <link href="https://cyberpowa.com/blog/11197/"/>
+    <id>https://cyberpowa.com/blog/11197/</id>
     <published>2024-04-18T16:13:10.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -432,25 +432,25 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="Debug" scheme="https://powator.github.io/categories/debug/"/>
+    <category term="Debug" scheme="https://cyberpowa.com/categories/debug/"/>
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="Web前端" scheme="https://powator.github.io/tags/web%E5%89%8D%E7%AB%AF/"/>
+    <category term="Web前端" scheme="https://cyberpowa.com/tags/web%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="npm" scheme="https://powator.github.io/tags/npm/"/>
+    <category term="npm" scheme="https://cyberpowa.com/tags/npm/"/>
     
-    <category term="NodeJS" scheme="https://powator.github.io/tags/nodejs/"/>
+    <category term="NodeJS" scheme="https://cyberpowa.com/tags/nodejs/"/>
     
-    <category term="Gulp" scheme="https://powator.github.io/tags/gulp/"/>
+    <category term="Gulp" scheme="https://cyberpowa.com/tags/gulp/"/>
     
   </entry>
   
   <entry>
     <title>利用GitHub做对象存储服务</title>
-    <link href="https://powator.github.io/blog/11170/"/>
-    <id>https://powator.github.io/blog/11170/</id>
+    <link href="https://cyberpowa.com/blog/11170/"/>
+    <id>https://cyberpowa.com/blog/11170/</id>
     <published>2024-04-17T09:27:24.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -468,21 +468,21 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="Python" scheme="https://powator.github.io/tags/python/"/>
+    <category term="Python" scheme="https://cyberpowa.com/tags/python/"/>
     
-    <category term="GitHub API" scheme="https://powator.github.io/tags/github-api/"/>
+    <category term="GitHub API" scheme="https://cyberpowa.com/tags/github-api/"/>
     
-    <category term="对象存储" scheme="https://powator.github.io/tags/%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/"/>
+    <category term="对象存储" scheme="https://cyberpowa.com/tags/%E5%AF%B9%E8%B1%A1%E5%AD%98%E5%82%A8/"/>
     
   </entry>
   
   <entry>
     <title>使用Gulp解决Hexo静态站的文件缓存问题</title>
-    <link href="https://powator.github.io/blog/11084/"/>
-    <id>https://powator.github.io/blog/11084/</id>
+    <link href="https://cyberpowa.com/blog/11084/"/>
+    <id>https://cyberpowa.com/blog/11084/</id>
     <published>2024-04-12T19:50:06.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -501,25 +501,25 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="Web前端" scheme="https://powator.github.io/tags/web%E5%89%8D%E7%AB%AF/"/>
+    <category term="Web前端" scheme="https://cyberpowa.com/tags/web%E5%89%8D%E7%AB%AF/"/>
     
-    <category term="npm" scheme="https://powator.github.io/tags/npm/"/>
+    <category term="npm" scheme="https://cyberpowa.com/tags/npm/"/>
     
-    <category term="NodeJS" scheme="https://powator.github.io/tags/nodejs/"/>
+    <category term="NodeJS" scheme="https://cyberpowa.com/tags/nodejs/"/>
     
-    <category term="Gulp" scheme="https://powator.github.io/tags/gulp/"/>
+    <category term="Gulp" scheme="https://cyberpowa.com/tags/gulp/"/>
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>迁移WordPress到静态博客</title>
-    <link href="https://powator.github.io/blog/11025/"/>
-    <id>https://powator.github.io/blog/11025/</id>
+    <link href="https://cyberpowa.com/blog/11025/"/>
+    <id>https://cyberpowa.com/blog/11025/</id>
     <published>2024-04-11T10:43:00.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -530,21 +530,21 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="Python" scheme="https://powator.github.io/tags/python/"/>
+    <category term="Python" scheme="https://cyberpowa.com/tags/python/"/>
     
-    <category term="WordPress" scheme="https://powator.github.io/tags/wordpress/"/>
+    <category term="WordPress" scheme="https://cyberpowa.com/tags/wordpress/"/>
     
-    <category term="Hexo" scheme="https://powator.github.io/tags/hexo/"/>
+    <category term="Hexo" scheme="https://cyberpowa.com/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>将WordPress文章转化为Markdown格式</title>
-    <link href="https://powator.github.io/blog/10094/"/>
-    <id>https://powator.github.io/blog/10094/</id>
+    <link href="https://cyberpowa.com/blog/10094/"/>
+    <id>https://cyberpowa.com/blog/10094/</id>
     <published>2024-04-03T03:53:31.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -562,21 +562,21 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="博客相关" scheme="https://powator.github.io/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
+    <category term="博客相关" scheme="https://cyberpowa.com/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/"/>
     
     
-    <category term="Python" scheme="https://powator.github.io/tags/python/"/>
+    <category term="Python" scheme="https://cyberpowa.com/tags/python/"/>
     
-    <category term="WordPress" scheme="https://powator.github.io/tags/wordpress/"/>
+    <category term="WordPress" scheme="https://cyberpowa.com/tags/wordpress/"/>
     
-    <category term="Markdown" scheme="https://powator.github.io/tags/markdown/"/>
+    <category term="Markdown" scheme="https://cyberpowa.com/tags/markdown/"/>
     
   </entry>
   
   <entry>
     <title>优雅地管理SSL证书及其关联服务</title>
-    <link href="https://powator.github.io/blog/10068/"/>
-    <id>https://powator.github.io/blog/10068/</id>
+    <link href="https://cyberpowa.com/blog/10068/"/>
+    <id>https://cyberpowa.com/blog/10068/</id>
     <published>2024-04-02T13:09:38.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -594,19 +594,19 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="瞎捣鼓经历" scheme="https://powator.github.io/categories/%E7%9E%8E%E6%8D%A3%E9%BC%93%E7%BB%8F%E5%8E%86/"/>
+    <category term="瞎捣鼓经历" scheme="https://cyberpowa.com/categories/%E7%9E%8E%E6%8D%A3%E9%BC%93%E7%BB%8F%E5%8E%86/"/>
     
     
-    <category term="Linux" scheme="https://powator.github.io/tags/linux/"/>
+    <category term="Linux" scheme="https://cyberpowa.com/tags/linux/"/>
     
-    <category term="SSL" scheme="https://powator.github.io/tags/ssl/"/>
+    <category term="SSL" scheme="https://cyberpowa.com/tags/ssl/"/>
     
   </entry>
   
   <entry>
     <title>使用Nginx反向代理DoH服务</title>
-    <link href="https://powator.github.io/blog/10026/"/>
-    <id>https://powator.github.io/blog/10026/</id>
+    <link href="https://cyberpowa.com/blog/10026/"/>
+    <id>https://cyberpowa.com/blog/10026/</id>
     <published>2024-03-28T02:32:32.000Z</published>
     <updated>2024-06-18T15:50:18.000Z</updated>
     
@@ -623,16 +623,16 @@ e&lt;/code&gt;hjet&lt;br&gt;h&lt;code&gt;jtwe&lt;/code&gt;hjmtwre&lt;br&gt;`hjor
     
     
     
-    <category term="瞎捣鼓经历" scheme="https://powator.github.io/categories/%E7%9E%8E%E6%8D%A3%E9%BC%93%E7%BB%8F%E5%8E%86/"/>
+    <category term="瞎捣鼓经历" scheme="https://cyberpowa.com/categories/%E7%9E%8E%E6%8D%A3%E9%BC%93%E7%BB%8F%E5%8E%86/"/>
     
     
-    <category term="Nginx" scheme="https://powator.github.io/tags/nginx/"/>
+    <category term="Nginx" scheme="https://cyberpowa.com/tags/nginx/"/>
     
-    <category term="DNS" scheme="https://powator.github.io/tags/dns/"/>
+    <category term="DNS" scheme="https://cyberpowa.com/tags/dns/"/>
     
-    <category term="反向代理" scheme="https://powator.github.io/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
+    <category term="DNS over HTTPS" scheme="https://cyberpowa.com/tags/dns-over-https/"/>
     
-    <category term="DNS over HTTPS" scheme="https://powator.github.io/tags/dns-over-https/"/>
+    <category term="反向代理" scheme="https://cyberpowa.com/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
     
   </entry>
   
