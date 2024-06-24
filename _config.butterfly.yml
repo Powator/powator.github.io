@@ -232,7 +232,7 @@ post_copyright:
 # Sponsor/reward
 reward:
   enable: false
-  text: 觉得本文有用？请作者喝奶茶吧～
+  text: Help me to improve!
   QR_code:
     - img: /images/wechat.png
     #   link:
