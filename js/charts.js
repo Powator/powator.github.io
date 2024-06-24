@@ -131,7 +131,7 @@
               color: color
             }
           },
-          data: ["Python","WordPress","Linux","神经网络","Web前端","JavaScript","计网","Hexo","Docker","PHP"]
+          data: ["Python","WordPress","Linux","神经网络","Web前端","计网","JavaScript","Hexo","Docker","PHP"]
         },
         yAxis: {
           name: '文章数量',
@@ -226,7 +226,7 @@
           radius: ['15%', '90%'],
           center: ['50%', '55%'],
           sort: 'desc',
-          data: [{"name":"瞎捣鼓经历","value":47,"path":"categories/瞎捣鼓经历/","id":"clxs6i3d300084yn8gafq7dag","parentId":"0"},{"name":"博客相关","value":39,"path":"categories/博客相关/","id":"clxs6i3dx001h4yn8cjq0bope","parentId":"0"},{"name":"Debug","value":19,"path":"categories/debug/","id":"clxs6i3da000g4yn8dpwk7ish","parentId":"0"},{"name":"机器学习","value":19,"path":"categories/机器学习/","id":"clxs6i3i0006r4yn82a958ysi","parentId":"0"},{"name":"学习笔记","value":15,"path":"categories/学习笔记/","id":"clxs6i3df000n4yn8ea7w7d3n","parentId":"0"},{"name":"CTF题解","value":11,"path":"categories/ctf题解/","id":"clxs6i3kw00at4yn8biwjbfjd","parentId":"0"},{"name":"Hexo魔改","value":8,"path":"categories/hexo魔改/","id":"clxs6i3nb00e44yn80y9m8xwm","parentId":"0"},{"name":"杂趣","value":2,"path":"categories/杂趣/","id":"clxs6i3mp00dd4yn8ce6y6020","parentId":"0"}],
+          data: [{"name":"瞎捣鼓经历","value":47,"path":"categories/瞎捣鼓经历/","id":"clxtd345m0008c5n8aq9p9pcc","parentId":"0"},{"name":"博客相关","value":39,"path":"categories/博客相关/","id":"clxtd346d000yc5n84ni8h71y","parentId":"0"},{"name":"Debug","value":19,"path":"categories/debug/","id":"clxtd3461000nc5n8a1nee14f","parentId":"0"},{"name":"机器学习","value":19,"path":"categories/机器学习/","id":"clxtd34cd005kc5n84nyb650s","parentId":"0"},{"name":"学习笔记","value":15,"path":"categories/学习笔记/","id":"clxtd34dv0081c5n8fcjug0fh","parentId":"0"},{"name":"CTF题解","value":11,"path":"categories/ctf题解/","id":"clxtd346t001dc5n876575za1","parentId":"0"},{"name":"Hexo魔改","value":8,"path":"categories/hexo魔改/","id":"clxtd348j002ic5n88qpz3wgt","parentId":"0"},{"name":"杂趣","value":2,"path":"categories/杂趣/","id":"clxtd347k001pc5n88rtv1aze","parentId":"0"}],
           itemStyle: {
             borderColor: '#fff',
             borderWidth: 2,
@@ -248,7 +248,7 @@
             color: color,
             formatter: '{b} : {c} ({d}%)'
           },
-          data: [{"name":"瞎捣鼓经历","value":47,"path":"categories/瞎捣鼓经历/","id":"clxs6i3d300084yn8gafq7dag","parentId":"0"},{"name":"博客相关","value":39,"path":"categories/博客相关/","id":"clxs6i3dx001h4yn8cjq0bope","parentId":"0"},{"name":"Debug","value":19,"path":"categories/debug/","id":"clxs6i3da000g4yn8dpwk7ish","parentId":"0"},{"name":"机器学习","value":19,"path":"categories/机器学习/","id":"clxs6i3i0006r4yn82a958ysi","parentId":"0"},{"name":"学习笔记","value":15,"path":"categories/学习笔记/","id":"clxs6i3df000n4yn8ea7w7d3n","parentId":"0"},{"name":"CTF题解","value":11,"path":"categories/ctf题解/","id":"clxs6i3kw00at4yn8biwjbfjd","parentId":"0"},{"name":"Hexo魔改","value":8,"path":"categories/hexo魔改/","id":"clxs6i3nb00e44yn80y9m8xwm","parentId":"0"},{"name":"杂趣","value":2,"path":"categories/杂趣/","id":"clxs6i3mp00dd4yn8ce6y6020","parentId":"0"}],
+          data: [{"name":"瞎捣鼓经历","value":47,"path":"categories/瞎捣鼓经历/","id":"clxtd345m0008c5n8aq9p9pcc","parentId":"0"},{"name":"博客相关","value":39,"path":"categories/博客相关/","id":"clxtd346d000yc5n84ni8h71y","parentId":"0"},{"name":"Debug","value":19,"path":"categories/debug/","id":"clxtd3461000nc5n8a1nee14f","parentId":"0"},{"name":"机器学习","value":19,"path":"categories/机器学习/","id":"clxtd34cd005kc5n84nyb650s","parentId":"0"},{"name":"学习笔记","value":15,"path":"categories/学习笔记/","id":"clxtd34dv0081c5n8fcjug0fh","parentId":"0"},{"name":"CTF题解","value":11,"path":"categories/ctf题解/","id":"clxtd346t001dc5n876575za1","parentId":"0"},{"name":"Hexo魔改","value":8,"path":"categories/hexo魔改/","id":"clxtd348j002ic5n88qpz3wgt","parentId":"0"},{"name":"杂趣","value":2,"path":"categories/杂趣/","id":"clxtd347k001pc5n88rtv1aze","parentId":"0"}],
           itemStyle: {
             emphasis: {
               shadowBlur: 10,
