@@ -231,7 +231,7 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: true
+  enable: false
   text: 觉得本文有用？请作者喝奶茶吧～
   QR_code:
     - img: /images/wechat.png
@@ -582,7 +582,7 @@ facebook_comments:
 # Twikoo
 # https://github.com/imaegoo/twikoo
 twikoo:
-  envId: https://twikoo.fyz666.xyz/
+  envId: 
   region:
   visitor: false
   option:
@@ -591,8 +591,8 @@ twikoo:
 # https://giscus.app/
 giscus:
   repo: 
-  repo_id: R_kgDOLhHf0w
-  category_id: DIC_kwDOLhHf084Ce0EO
+  repo_id: 
+  category_id: 
   theme:
     light: light_high_contrast
     dark: dark_high_contrast
