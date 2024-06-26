@@ -1,5 +1,5 @@
 var github_canlendar = (git_user, git_color) => {
-    var git_githubapiurl = "https://github-calendar-api.cyberpowa.com/api?user=" + git_user;
+    var git_githubapiurl = "https://github-calendar-api.fyz666.xyz/api?user=" + git_user;
     var git_fixed = 'fixed';
     var git_px = 'px';
     var git_month = ['一月', '二月', '三月', '四月', '五月', '六月', '七月', '八月', '九月', '十月', '十一月', '十二月'];
@@ -267,7 +267,7 @@ var loading_git = (color) => {
 };
 var renderGitHubCalendar = () => {
     if (!document.getElementById('github_container'))return;
-    var git_user = 'powator';
+    var git_user = 'windshadow233';
     var github_container = document.getElementsByClassName('github_container')[0];
     var github_loading = document.getElementById('github_loading');
     var git_purple = ['#ebedf0', '#fdcdec', '#fc9bd9', '#fa6ac5', '#f838b2', '#f5089f', '#c4067e', '#92055e', '#540336', '#48022f', '#30021f',];
